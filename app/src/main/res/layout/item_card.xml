@@ -1,0 +1,142 @@
+
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="8dp"
+    android:padding="16dp"
+    card_view:cardCornerRadius="4dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+  >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ll_beacon"
+        android:paddingTop="8dp">
+
+        <ImageView
+            android:id="@+id/ivBeaconAvatar"
+            android:layout_width="@dimen/comment_avatar_size"
+            android:layout_height="@dimen/comment_avatar_size"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/bg_comment_avatar" />
+
+        <TextView
+            android:id="@+id/tvBeaconName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:text="Lorem ipsum  amet" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ll_card"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+    <TextView
+        android:id="@+id/tvCardName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:paddingBottom="8dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="1"
+        android:text="Lorem ipsum  amet" />
+    <TextView
+        android:id="@+id/tvCardSlug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:paddingBottom="8dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="1"
+        android:text="昨天开车送妹子回家，妹子家小区是建邺的一个老旧小区，没有固定停车位，也没人管理，通常都是谁来了有位置就可以停。因为是妹子家的车，我也就准备停在她家楼下。刚开进去，好啊，本来就没几个位置了，还有一辆"
+        />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#dddddd"
+
+            android:weightSum="2"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ll_card_comment"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+            <ImageButton
+                android:id="@+id/btnComments"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/btn_feed_action"
+                android:layout_weight="1"
+                android:src="@drawable/ic_comment_outline_grey" />
+
+            <TextView
+                android:id="@+id/tvCommentsNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="11" />
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/ll_card_favorite"
+                    android:layout_weight="1"
+                    >
+            <ImageButton
+                android:id="@+id/btnFavorites"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_feed_action"
+                android:src="@drawable/ic_heart_outline_grey" />
+
+            <TextView
+                android:id="@+id/tvFavoritesNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="11" />
+                </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

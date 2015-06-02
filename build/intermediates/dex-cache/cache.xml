@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\WorkSpace\BLEScut\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="D:\WorkSpace\BLEScut\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-35561d9d2446ef0e3b03f7a221f024e97445b96d.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpace\BLEScut\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="D:\WorkSpace\BLEScut\app\build\intermediates\pre-dexed\debug\classes-7f875710ab68b92fc5867655439fee6127baaa3e.jar" />
+    </item>
+    <item
+        jar="C:\Users\lowworker\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.4.0\40340c0748190fe897baf7bffbc1b282734294e5\okhttp-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="D:\WorkSpace\BLEScut\app\build\intermediates\pre-dexed\debug\okhttp-2.4.0-c989c313225b6592d923e400b4f89a0eba535033.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpace\BLEScut\app\build\intermediates\exploded-aar\com.android.support\support-v13\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="def3eff2b7b4774d96ae15b07b3fc0111edbfe24">
+        <dex dex="D:\WorkSpace\BLEScut\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-4e588fc8c7c45444d302643caf4f60349eb42703.jar" />
+    </item>
+    <item
+        jar="C:\Users\lowworker\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="D:\WorkSpace\BLEScut\app\build\intermediates\pre-dexed\debug\retrofit-1.9.0-72757fd48ad3479695bc41657b8d433de7d4ba19.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpace\BLEScut\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="11842de6a309c447b3a3d60d73ad637a87c58994">
+        <dex dex="D:\WorkSpace\BLEScut\app\build\intermediates\pre-dexed\debug\classes-f780b7780506f279454db1a918e6fa76e15507fe.jar" />
+    </item>
+    <item
+        jar="C:\Users\lowworker\.gradle\caches\modules-2\files-2.1\de.greenrobot\greendao\1.3.7\dda08161d004c4df96938da6909f1c2b96cd33c8\greendao-1.3.7.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dda08161d004c4df96938da6909f1c2b96cd33c8">
+        <dex dex="D:\WorkSpace\BLEScut\app\build\intermediates\pre-dexed\debug\greendao-1.3.7-db07aca106d861684c6b55caf7a84222ce8c1c7a.jar" />
+    </item>
+    <item
+        jar="C:\Users\lowworker\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.0.0\3a10b25b6820e19102e118711afe6a66c0bae123\butterknife-6.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3a10b25b6820e19102e118711afe6a66c0bae123">
+        <dex dex="D:\WorkSpace\BLEScut\app\build\intermediates\pre-dexed\debug\butterknife-6.0.0-3b4c5b79c3634b4641e05212b8e51350f2eda547.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpace\BLEScut\app\build\intermediates\exploded-aar\org.altbeacon\android-beacon-library\2.1.4\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fc2b4fa86d40b71af744611751543dfe079eff58">
+        <dex dex="D:\WorkSpace\BLEScut\app\build\intermediates\pre-dexed\debug\classes-ecb4520140eab1a98dacbb49a7da0c152825f4b2.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpace\BLEScut\app\build\intermediates\exploded-aar\com.android.support\support-v13\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7f9cca1caa023a880b00c382bcc5c90245ae4895">
+        <dex dex="D:\WorkSpace\BLEScut\app\build\intermediates\pre-dexed\debug\classes-9b4d826677e1e95fa88c49b6b0d1728c4dfa0dbb.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpace\BLEScut\common\build\libs\common.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="007f568770ecd5e8f23dd7f59015731b263c80c2">
+        <dex dex="D:\WorkSpace\BLEScut\app\build\intermediates\pre-dexed\debug\common-3f8036e7a56a395a4045ffee5fe521b026df3d65.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpace\BLEScut\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="D:\WorkSpace\BLEScut\app\build\intermediates\pre-dexed\debug\classes-88962da103c5a0ec74c28fc7045fa2e44ffe7d27.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpace\BLEScut\app\build\intermediates\exploded-aar\com.nispok\snackbar\2.9.1\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e616883bd2cc1ee2618d8c9b01346a3afe5e7633">
+        <dex dex="D:\WorkSpace\BLEScut\app\build\intermediates\pre-dexed\debug\classes-f313836eede13922a0879fade44f2ce1072c41a4.jar" />
+    </item>
+    <item
+        jar="C:\Users\lowworker\.gradle\caches\modules-2\files-2.1\com.squareup\otto\1.3.5\7941cd2c2c8ec006800d75c35f8a9dacf892ab93\otto-1.3.5.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7941cd2c2c8ec006800d75c35f8a9dacf892ab93">
+        <dex dex="D:\WorkSpace\BLEScut\app\build\intermediates\pre-dexed\debug\otto-1.3.5-68b09c2efb693f002bbcff2b95cc9811ca758346.jar" />
+    </item>
+    <item
+        jar="C:\Users\lowworker\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="D:\WorkSpace\BLEScut\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-be12c4d0169190208e97c0f4c2c14c8b63c7cc33.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpace\BLEScut\app\build\intermediates\exploded-aar\com.android.support\palette-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="285506e1cf9d5a66878e2aab3884b3427f8734e9">
+        <dex dex="D:\WorkSpace\BLEScut\app\build\intermediates\pre-dexed\debug\classes-aa7c157af3f93090ae364593f85bc1ee883f194d.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpace\BLEScut\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="D:\WorkSpace\BLEScut\app\build\intermediates\pre-dexed\debug\classes-6c9f2d6f22c0f7d7b71fe209a5ac4dab0ddec6b3.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpace\BLEScut\app\libs\locSDK_5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="389047997db28fcb848dc4247c5590a08b7ff769">
+        <dex dex="D:\WorkSpace\BLEScut\app\build\intermediates\pre-dexed\debug\locSDK_5.2-7d8c12806665f83ba58a7159314aadd80b775a01.jar" />
+    </item>
+    <item
+        jar="C:\Users\lowworker\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.4.0\f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2\picasso-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="D:\WorkSpace\BLEScut\app\build\intermediates\pre-dexed\debug\picasso-2.4.0-a4cb7837d6919f084ced88cc14247cb3d6973888.jar" />
+    </item>
+    <item
+        jar="C:\Users\lowworker\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.4.0\5b72bf48563ea8410e650de14aa33ff69a3e8c35\okio-1.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
+        <dex dex="D:\WorkSpace\BLEScut\app\build\intermediates\pre-dexed\debug\okio-1.4.0-75250257ad3aa17c7b0f625ff2b2586d09b0b803.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpace\BLEScut\app\libs\baidumapapi_v3_4_0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b119fced92bf2ce28881a5b8ac33b8c30d29bb40">
+        <dex dex="D:\WorkSpace\BLEScut\app\build\intermediates\pre-dexed\debug\baidumapapi_v3_4_0-44b63d4b3d78667f27a6c4ddbeda6c3631096e2d.jar" />
+    </item>
+    <item
+        jar="C:\Users\lowworker\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="D:\WorkSpace\BLEScut\app\build\intermediates\pre-dexed\debug\gson-2.3.1-6fcc091dac7fe79579cd33722f88ea1caf79c2ff.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?><!-- item_feed.xml -->
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/beacon_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="8dp"
+    card_view:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <com.lowworker.android.views.custom_views.SquaredFrameLayout
+            android:id="@+id/vImageRoot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivBeaconCenter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+            <View
+                android:id="@+id/vBgLike"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_like_circle_background"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivLike"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@drawable/ic_heart_outline_white"
+                android:visibility="gone" />
+
+        </com.lowworker.android.views.custom_views.SquaredFrameLayout>
+        <TextView
+            android:id="@+id/tvBeaconName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test Beacon"
+            android:textSize="20sp"
+            android:layout_margin="16dp"
+            android:textColor="@color/text_like_counter"
+            android:src="@drawable/ic_feed_top" />
+        <TextView
+            android:id="@+id/tvBeaconBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="昨天开车送妹子回家，妹子家小区是建邺的一个老旧小区，没有固定停车位，也没人管理，通常都是谁来了有位置就可以停。因为是妹子家的车，我也就准备停在她家楼下。刚开进去，好啊，本来就没几个位置了，还有一辆"
+            android:layout_margin="16dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <ImageButton
+                android:id="@+id/btnLike"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_heart_outline_grey" />
+
+            <ImageButton
+                android:id="@+id/btnComments"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/btn_feed_action"
+                android:src="@drawable/ic_comment_outline_grey" />
+
+            <ImageButton
+                android:id="@+id/btnMore"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/btn_feed_action"
+                android:src="@drawable/ic_more_grey" />
+            <com.lowworker.android.views.custom_views.SubscriptBeaconButton
+                android:id="@+id/btnSubscript"
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/btn_subscript_beacon"
+                 />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+
+                    android:src="@drawable/ic_visibility_grey600_18dp" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <TextSwitcher
+                    android:id="@+id/tvSubscriptionsCounter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="0dp"
+                    android:inAnimation="@anim/slide_in_likes_counter"
+                    android:outAnimation="@anim/slide_out_likes_counter">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="123"
+                        android:textColor="@color/text_like_counter" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_like_counter" />
+                </TextSwitcher>
+                <TextView
+                    android:layout_marginRight="8dp"
+                    android:id="@+id/tv_subscriptions_fix"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/beacon_item_text"
+                    android:textColor="@color/text_like_counter" />
+            </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

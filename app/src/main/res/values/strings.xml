@@ -1,0 +1,59 @@
+<resources>
+    <string name="pref_category_ble">BLE设置</string>
+    <string name="pref_title_boot_start">开机启动</string>
+    <string name="pref_summary_boot_start">开启这项，开机启动</string>
+    <string name="pref_title_background_work">后台运行</string>
+    <string name="pref_summary_background_work">开启这项，后台运行</string>
+    <string name="pref_title_send_notification">推送通知</string>
+    <string name="pref_summary_send_notification">开启这项，进入Beacon区域，自动推送通知</string>
+
+    <string name="pref_category_more">更多</string>
+    <string name="pref_title_contact">联系作者</string>
+    <string name="pref_summary_contact">邮箱afafa@163.com</string>
+    <string name="pref_title_about">关于</string>
+    <string name="pref_summary_about">了解更多这个应用的信息</string>
+
+    <string name="action_settings">设置</string>
+
+    <string name="activity_detail_action_label_1">Pending</string>
+    <string name="activity_detail_action_label_2">Viewed</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="toolbar_title">BLEScut</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="activity_detail_label_description">Description</string>
+    <string name="activity_detail_label_tagline">Tagline</string>
+    <string name="ble_turned_off_title">BLE 关闭</string>
+    <string name="ble_turned_off_message">BLE 关闭了</string>
+
+    <plurals name="likes_count">
+        <item quantity="one">%d like</item>
+        <item quantity="other">%d likes</item>
+    </plurals>
+
+    <string name="user_profile_photo">http://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-19/929118_455075441302693_1605108410_a.jpg</string>
+    <string name="activity_detail_reviews_description">Reviews</string>
+    <string name="drawer_item_all">所有Beacon </string>
+    <string name="drawer_item_notifications">我的信息</string>
+    <string name="drawer_item_popular">最受关注的Beacon</string>
+    <string name="drawer_item_nearby">附近的Beacon</string>
+    <string name="drawer_item_favorites">我的收藏</string>
+    <string name="drawer_item_settings">设置</string>
+    <string name="drawer_item_about">关于</string>
+    <string name="drawer_item_exit">退出</string>
+
+    <string name="notification_error_title">BLE获取信息失败，点击重试</string>
+    <string name="notification_error_msg">由于网络原因，无法取得Beacon区域信息，点击重试</string>
+
+    <string name="notification_error_login_title">BLE获取信息失败，需要登陆</string>
+    <string name="notification_error_login_msg">由于你未登录，无法取得Beacon区域信息，请先登录，点击重试</string>
+    <string name="beacon_item_text">人关注</string>
+
+
+    <string name="activity_beacon_location_tagline">位置</string>
+
+
+
+</resources>

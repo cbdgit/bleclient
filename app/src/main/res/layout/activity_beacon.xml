@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:id="@+id/srl_beacon">
+
+            <com.lowworker.android.views.custom_views.AutofitRecyclerView
+                android:id="@+id/rvBeacon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="?android:attr/actionBarSize"
+                android:clipToPadding="false"
+                android:scrollbars="none" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:minHeight="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+
+            >
+
+            <com.lowworker.android.views.custom_views.LobsterTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ltLogo"
+                android:text="@string/toolbar_title"
+                android:textSize="22sp"
+                android:textColor="#FFF" />
+        </android.support.v7.widget.Toolbar>
+
+
+
+
+</RelativeLayout>

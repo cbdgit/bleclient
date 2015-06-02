@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_category_ble" >
+        <SwitchPreference
+            android:key="pref_key_boot_start"
+            android:summary="@string/pref_summary_boot_start"
+            android:defaultValue="true"
+            android:title="@string/pref_title_boot_start" />
+        <SwitchPreference
+            android:key="pref_key_background_work"
+            android:summary="@string/pref_summary_background_work"
+            android:defaultValue="true"
+            android:title="@string/pref_title_background_work" />
+        <SwitchPreference
+            android:key="pref_key_send_notificatoin"
+            android:summary="@string/pref_summary_send_notification"
+            android:defaultValue="true"
+            android:title="@string/pref_title_send_notification" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_more" >
+        <Preference
+            android:key="pref_key_contact"
+            android:summary="@string/pref_summary_contact"
+            android:title="@string/pref_title_contact" />
+        <Preference
+            android:key="pref_key_about"
+            android:summary="@string/pref_summary_about"
+            android:title="@string/pref_title_about" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

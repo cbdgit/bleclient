@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_feed_toolbar" />
+
+    />
+
+    <LinearLayout
+        android:id="@+id/contentRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:background="@color/bg_comments"
+
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_activity_login_title"
+        android:text="BLE Scut"
+        android:padding="16dp"
+        android:fontFamily="RobotoSlab-Regular.ttf"
+        android:gravity="center"
+        android:textSize="40sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="8dp"
+        android:layout_margin="8dp"
+        android:hint="username"
+        android:text="testusername"
+        android:ems="10"
+        android:id="@+id/et_activity_login_username"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_activity_login_password"
+        android:inputType="textPassword"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:hint="password"
+        android:text="testpassword"
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="8dp"
+        android:layout_marginTop="8dp"
+         />
+
+        <Button
+        android:background="@drawable/btn_login"
+        android:id="@+id/btn_activity_login_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:layout_marginTop="18dp"
+        android:textColor="#fff"
+        android:text="login"
+       />
+
+
+
+    </LinearLayout>
+</RelativeLayout>

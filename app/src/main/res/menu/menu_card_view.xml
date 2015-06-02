@@ -1,0 +1,37 @@
+<!--menu_main.xml-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CardDetailActivity">
+
+    <item
+        android:id="@+id/action_star"
+        android:title="50"
+        android:icon="@drawable/ic_star_outline_white_36dp"
+        android:background="@drawable/btn_default_light"
+        app:showAsAction= "always" />
+    <item
+        android:id="@+id/action_favorite"
+        android:title="50"
+        android:icon="@drawable/ic_favorite_white_36dp"
+        android:background="@drawable/btn_default_light"
+        app:showAsAction= "always" />
+    <item
+        android:id="@+id/action_favorite_num"
+        android:title="50"
+
+        app:showAsAction= "always" />
+
+    <item
+        android:id="@+id/action_comment"
+        android:title="25"
+        android:background="@drawable/btn_default_light"
+        android:icon="@drawable/ic_mode_comment_white_36dp"
+        app:showAsAction= "always" />
+
+    <item
+        android:id="@+id/action_comment_num"
+        android:title="50"
+        app:showAsAction= "always" />
+
+</menu>

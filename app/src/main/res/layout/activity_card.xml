@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        >
+
+    <com.lowworker.android.views.custom_views.AutofitRecyclerView
+        android:id="@+id/rvCard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="?android:attr/actionBarSize"
+        android:clipToPadding="false"
+        android:scrollbars="none" />
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_height="wrap_content"
+
+            android:layout_width="match_parent"
+            android:minHeight="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+
+            >
+
+            <com.lowworker.android.views.custom_views.LobsterTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ltLogo"
+                android:text="@string/toolbar_title"
+                android:textSize="22sp"
+                android:textColor="#FFF"
+                />
+        </android.support.v7.widget.Toolbar>
+        <ProgressBar
+            android:id="@+id/pbCard"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_margin="150dp"
+            android:visibility="gone"
+            style="?android:attr/progressBarStyleLarge"
+            />
+        <LinearLayout
+            android:id="@+id/ll_retry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/imageView"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_info_outline_grey600_48dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="加载失败，请点击重试"
+                android:textSize="22sp"
+                android:layout_gravity="center"
+                android:id="@+id/tv_retry" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="重新加载"
+                android:layout_margin="20dp"
+                android:textColor="#ffffff"
+                android:background="?attr/colorPrimary"
+                android:id="@+id/btn_retry" />
+
+
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+</RelativeLayout>
